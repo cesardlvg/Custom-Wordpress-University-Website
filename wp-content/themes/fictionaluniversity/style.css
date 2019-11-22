@@ -4,6 +4,7 @@ Author: Cesar De La Vega
 Version: 1.0
 */
 
+
 /* 3rd party packages */
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -2366,8 +2367,4 @@ Version: 1.0
   .post-item:last-of-type {
     border-bottom: none;
     margin-bottom: 0;
-  }
-
-  h2 a, h1{
-    color:red !important;
   }
