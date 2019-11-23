@@ -17,7 +17,7 @@
             
             <div class="container container--narrow page-section">
                 <div class="metabox metabox--position-up metabox--with-home-link">
-                    <p><a class="metabox__blog-home-link" href="<?php echo site_url('/blog') ?>"><i class="fa fa-home" aria-hidden="true"></i> Blog Home</a> <span class="metabox__main"></span></p>
+                    <p><a class="metabox__blog-home-link" href="<?php echo site_url('/blog') ?>"><i class="fa fa-home" aria-hidden="true"></i> Blog Home</a> <span class="metabox__main">Posted by <?php the_author(); ?></span></p>
                 </div>
                 <div class="generic-content"><?php echo the_content(); ?></div>
             </div>
