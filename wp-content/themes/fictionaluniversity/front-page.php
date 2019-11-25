@@ -5,7 +5,7 @@
     <div class="page-banner__content container t-center c-white">
       <h1 class="headline headline--large">Welcome!</h1>
       <h3 class="headline headline--small">Why don&rsquo;t you check out the <strong>major</strong> you&rsquo;re interested in?</h3>
-      <a href="#" class="btn btn--large btn--blue">Find your calling</a>
+      <a href="<?php echo get_post_type_archive_link('program'); ?>" class="btn btn--large btn--blue">Find your calling</a>
     </div>
   </div>
 
